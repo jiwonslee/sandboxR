@@ -22,7 +22,7 @@ dbgap.download <- function(krt, key = FALSE)  {
   wd <- getwd()
 
   # DL and untar sratoolkit for mac
-  download.file("http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.9.1-1/sratoolkit.2.9.1-1-mac64.tar.gz", "./sratoolkit.2.9.1-1-mac64.tar.gz")
+  download.file("https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.9.1-1/sratoolkit.2.9.1-1-mac64.tar.gz", "./sratoolkit.2.9.1-1-mac64.tar.gz")
   untar("./sratoolkit.2.9.1-1-mac64.tar.gz")
   file.remove("./sratoolkit.2.9.1-1-mac64.tar.gz")
 
